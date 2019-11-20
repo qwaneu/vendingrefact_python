@@ -1,6 +1,7 @@
 #
-# (c) Quality Without A Name 2011
-#     Refactoring Course material
+# (c) 2019 Quality Without a Name
+# www.qwan.eu
+# Refactoring Course material
 #
 
 class Can:

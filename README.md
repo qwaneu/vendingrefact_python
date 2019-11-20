@@ -61,18 +61,31 @@ We recommend you run the provided tests often, even if they don't cover
 everything. Adding new tests is also a good idea, but that may be only
 possible after you've done some refactoring.
 
+Prerequisites
+=============
+
+This code base requires Python 3 and pytest.
+
 Which smells and refactorings can help me?
 ==========================================
 
-You can find lists of smells and refactorings to choose from at: TODO:
-LINKS
+You can find lists of smells and refactorings to choose from at: 
+- [Code smells](https://blog.codinghorror.com/code-smells/)
+- [Catalog of refactorings](https://refactoring.com/catalog/)
 
 or you can order a pack of [smells and refactoring cue
-cards](http://www.qwan.eu/refactoringcards) TODO: LINK to play with the
+cards](http://www.qwan.eu/shop) to play with the
 smells and refactorings spatially.
 
 References
 ==========
+
+- William F. Opdyke, [Refactoring OO Frameworks](http://laputan.org/pub/papers/opdyke-thesis.pdf) (1992)
+- Martin Fowler, Refactoring (1999 / 2019)
+- Joshua Kerievsky, [Refactoring to Patterns](https://www.industriallogic.com/xp/refactoring/) (2004)
+- Wiliam C. Wake, Refactoring Workbook (2003)
+- Sven Gorts, [Refactoring Thumbnails](http://web.archive.org/web/20090221213654/http://www.refactoring.be/thumbnails.html)
+
 
 Authors
 =======

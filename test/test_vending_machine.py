@@ -1,10 +1,11 @@
 #
-# (c) Quality Without A Name 2011
-#         Refactoring Course material
+# (c) 2019 Quality Without a Name
+# www.qwan.eu
+# Refactoring Course material
 #
 import unittest
-from vending_machine import *
-from chipknip import *
+from lib.vending_machine import *
+from lib.chipknip import *
 
 class VendingMachineTest(unittest.TestCase):
     def setUp(self):

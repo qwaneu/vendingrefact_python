@@ -1,9 +1,10 @@
 #
-# (c) Quality Without A Name 2011
-#         Refactoring Course material
+# (c) 2019 Quality Without a Name
+# www.qwan.eu
+# Refactoring Course material
 #
-from enums import *
-from can_container import *
+from .enums import *
+from .can_container import *
 
 class VendingMachine:
     def __init__(self):
@@ -29,7 +30,7 @@ class VendingMachine:
         #
         #step 1: check if choice exists
         #
-        if self.cans.has_key(choice):
+        if choice in self.cans:
             #
             # step2 : check price
             #
@@ -80,7 +81,7 @@ class VendingMachine:
 
     def configure(self, choice, c, n, price = 0):
         self.price = price
-        if (self.cans.has_key(choice)):
+        if (choice in self.cans):
             self.cans[choice].amount += n
             return
 
