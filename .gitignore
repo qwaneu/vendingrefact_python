@@ -1,1 +1,7 @@
 *.pyc
+.pytest_cache
+reports
+.settings
+.idea
+*.iml
+venv
